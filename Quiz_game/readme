@@ -1,1 +1,7 @@
 
+It is a multi-threaded client-server chat program by using fork system call. 
+Here clients are differentiated by IP ADDRESS and PORT NUMBER, also names are provided by the client at the start of theconversation.
+Server sends 5 questions one by one to the client.
+It notes the time at which it sends a question and the time at which it receives the answer.
+If the client gives the wrong answer or the time difference is greater than 60 seconds, 
+the server disconnects the client saying “BETTER LUCK NEXT TIME” along with the reason for terminating the connection.
