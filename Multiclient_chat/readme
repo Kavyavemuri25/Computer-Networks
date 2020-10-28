@@ -1,1 +1,3 @@
-
+It is a multi-threaded client-server chat program by using fork system call. 
+Here clients are differentiated by IP ADDRESS and PORT NUMBER, also names are provided by the client at the start of the
+conversation so as to provide readability to the user.
